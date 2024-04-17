@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rabbitmq-chat
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 1111
+    virtual-host: chat
+
+logging:
+  level:
+    org: ERROR
